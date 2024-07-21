@@ -9,8 +9,8 @@
     "@sap-cloud-sdk/http-client": "^3.16.0",
     "@sap-cloud-sdk/util": "^3.16.0",
     "@sap/cds": "^7",
-    "express": "^4",
-    "@sap/xssec": "^3"
+    "@sap/xssec": "^3",
+    "express": "^4"
   },
   "devDependencies": {
     "@cap-js/sqlite": "^1",
@@ -39,7 +39,7 @@
         }
       },
       "[production]": {
-        "auth": "dummy"
+        "auth": "hana"
       }
     }
   }
