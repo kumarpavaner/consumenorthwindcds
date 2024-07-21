@@ -39,7 +39,7 @@
         }
       },
       "[production]": {
-        "auth": "hana"
+        "auth": "dummy"
       }
     }
   }
